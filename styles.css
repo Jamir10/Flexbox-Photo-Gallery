@@ -1,0 +1,26 @@
+*{
+    box-sizing:border-box;
+}
+  /* Normalize your box model by creating a * selector and setting 
+  the box-sizing property to border-box.
+  */
+
+#gallery img{ /* from <div id=gallery */
+    width: 25%;
+    /*Your images are currently too large, and you will not be able 
+    to see your CSS changes.
+    Create a #gallery img selector to target your images. Give it a 
+    width property set to 25%.
+    */
+    height: 300px;
+}
+body{
+    margin: 0;
+    font-family: Arial;
+    background: #EBE7E7;
+}
+.header{
+    text-align: center;
+    padding: 32;
+    background: #E0DDDD;
+}
